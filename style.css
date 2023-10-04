@@ -1,0 +1,529 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+body{
+    background-color: #000;
+    scroll-behavior: smooth;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+#page1{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+#page2{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+#page3{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+canvas{
+    position: relative;
+    z-index: 9;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+#loop{
+    display: flex;
+    position: absolute;
+    top: 30%;
+    height: 25%;
+    width: 100%;
+    font-size: 100px;
+    white-space: nowrap;
+    font-family: gilroy;
+}
+#loop>h1{
+    font-weight: 400;
+    animation-name: anim;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    color: #999;
+}
+#loop>h1>span{
+    -webkit-text-stroke: 1.2px #fff;
+    color: transparent;
+    font-weight: 500;
+}
+ h4{
+    color: #999;
+}
+@keyframes anim{
+    0%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7%;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    padding: 0px 30px;
+}
+#nav>h3{
+    font-family: gilroy;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+}
+#nav>a>button{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    cursor: pointer;
+}
+#nav>a>button:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+#page>h3{
+    position: absolute;
+    top: 55%;
+    font-family: gilroy;
+    font-weight: 400;
+    color: #fff;
+    left: 5%;
+}
+#page>h4{
+    position: absolute;
+    top: 62%;
+    left: 25%;
+    font-family: gilroy;
+    font-weight: 500;
+}
+#page1>#right-text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+#page1>#right-text>h3{
+    font-weight: 400;
+    color: #999;
+}
+#page1>#right-text>h1{
+    line-height: 1.5;
+    font-size: 50px;
+    color: #fff;
+}
+#page1>#left-text{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    text-align: end;
+}
+#page1>#left-text>h1{
+    font-size: 50px;
+    line-height: 1.5;
+    color: #fff;
+}
+#page1>#left-text>h3{
+    color: #777;
+    font-weight: 400;
+}
+#page2>#text1{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+#page2>#text1>h3{
+    color: #999;
+    font-weight: 400;
+}
+#page2>#text1>h1{
+    font-size: 60px;
+    line-height: 1.5;
+    color: #fff;
+}
+#page2>#text2{
+    position: absolute;
+    top: 55%;
+    right: 10%;
+    text-align: end;
+}
+#page2>#text2>p{
+    color: #fff;
+    font-weight: 400;
+}
+#page3>#text3{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    text-align: end;
+}
+#page3>#text3>h3{
+    color: #999;
+    font-weight: 400;
+}
+#page3>#text3>h1{
+    font-size: 70px;
+    color: #fff;
+}
+
+/*------------ ROAD MAP ------------*/
+
+.title h1{
+   text-align: center;
+   font: size 300px;
+   margin-top: 40px;
+   color: #999;
+   font-size: 50px;
+   font-weight: 900;
+}
+.title p{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.map {
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 410px;
+    border-radius: 20px;
+    height: 190px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    float: left; /* Add this to make the boxes appear in one line */
+}
+.map-2{
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 410px;
+    border-radius: 20px;
+    height: 190px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    float: left; /* Add this to make the boxes appear in one line */
+}
+.map-3{
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 410px;
+    border-radius: 20px;
+    height: 190px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    float: left; /* Add this to make the boxes appear in one line */
+}
+.map-4{
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 410px;
+    border-radius: 20px;
+    height: 190px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    float: left; /* Add this to make the boxes appear in one line */
+}
+.map-5{
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 410px;
+    border-radius: 20px;
+    height: 190px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    float: left; /* Add this to make the boxes appear in one line */
+}
+.map-6{
+    background-color: #fff;
+    border: 1px solid #000;
+    width: 410px;
+    border-radius: 20px;
+    height: 190px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    float: left; /* Add this to make the boxes appear in one line */
+}
+
+
+.map p, .map-2 p, .map-3 p, .map-4 p, .map-5 p, .map-6 p {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.map h2, .map-2 h2, .map-3 h2, .map-4 h2, .map-5 h2, .map-6 h2 {
+    margin-left: 20px;
+}
+
+/*---------------- */
+.ok>h1{
+    -webkit-text-stroke: 1.2px #fff;
+    color: transparent;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    font-size: 200px;
+    font-family: sans-serif;
+}
+
+
+.vertical-line {
+    border-right: 2px dashed #999; /* Adjust the thickness, style, and color */
+    height: 200px; /* Adjust the height of the vertical line */
+    margin-right: 900px; /* Adjust the margin if needed */
+    margin-top: 500px;
+  }
+
+
+  .vertical-line2 {
+    border-right: 2px dashed #999; /* Adjust the thickness, style, and color */
+    height: 200px; /* Adjust the height of the vertical line */
+    margin-right: 900px; /* Adjust the margin if needed */
+    margin-top: 50px;
+  }
+
+  
+/*---------------- -------------------*/
+
+.team p{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+.team h1{
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+}
+
+.team h5 {
+    color: #777;
+    margin-left: 300px; /* Adjust the margin as needed */
+    margin-top: 10px;
+    display: inline-block; /* Add this to make the h5 inline */
+}
+
+.team h4 {
+    color: #777;
+    text-align: center;
+    margin-left: 20px; /* Adjust the margin as needed */
+    display: inline-block; /* Add this to make the h4 inline */
+}
+
+
+/*--------------- */
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-left: 320px;
+    margin-top: 70px;
+    width: 180px;
+    margin-bottom: 50px;
+}
+.btn2{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-left: 80px;
+    width: 180px;
+}
+.btn3{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-left: 80px;
+    width: 180px;
+}
+.btn4{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-left: 80px;
+    width: 180px;
+}
+.btn:hover, .btn2:hover, .btn3:hover, .btn4:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Styles for small screens (max-width: 768px) */
+@media (max-width: 768px) {
+    #nav {
+        flex-direction: column; /* Stack navigation items vertically */
+        align-items: center; /* Center align items */
+        height: auto; /* Remove fixed height */
+    }
+
+    #nav > h3 {
+        margin-bottom: 20px; /* Add spacing between logo and button */
+        display: none;
+    }
+
+    #nav > a > button {
+        margin-top: 20px; /* Add spacing below the button */
+        display: none;
+    }
+
+    #page > h3, #page > h4 {
+        position: static; /* Remove absolute positioning */
+        text-align: center; /* Center align text */
+        margin: 20px 0; /* Add spacing around text */
+    }
+
+    #loop {
+        top: 20%; /* Adjust the position of the looping text */
+        font-size: 40px; /* Reduce font size for smaller screens */
+    }
+
+    #loop > h1 {
+        font-size: 60px; /* Increase font size for smaller screens */
+    }
+
+    #page1 > #right-text, #page1 > #left-text {
+        position: static; /* Remove absolute positioning */
+        top: auto; /* Remove top positioning */
+        left: auto; /* Remove left positioning */
+        text-align: center; /* Center align text */
+    }
+
+    #page1 > #left-text > h1, #page1 > #right-text > h1 {
+        font-size: 40px; /* Reduce font size for smaller screens */
+    }
+
+    #page2 > #text1, #page2 > #text2 {
+        position: static; /* Remove absolute positioning */
+        top: auto; /* Remove top positioning */
+        left: auto; /* Remove left positioning */
+        text-align: center; /* Center align text */
+    }
+
+    #page2 > #text1 > h1 {
+        font-size: 50px; /* Reduce font size for smaller screens */
+    }
+
+    #page2 > #text2 > p {
+        font-size: 16px; /* Reduce font size for smaller screens */
+    }
+
+    #page3 > #text3 {
+        position: static; /* Remove absolute positioning */
+        top: auto; /* Remove top positioning */
+        left: auto; /* Remove left positioning */
+        text-align: center; /* Center align text */
+    }
+
+    #page3 > #text3 > h1 {
+        font-size: 50px; /* Reduce font size for smaller screens */
+    }
+    .map {
+        width: 100%; /* Make the boxes full width on small screens */
+        margin-left: 0; /* Remove left margin */
+        height: 200px;
+        height: 110%;
+        margin-top: 10px;
+    }
+    .map-2, .map-3, .map-4, .map-5, .map-6{
+        width: 100%; /* Make the boxes full width on small screens */
+        margin-left: 0; /* Remove left margin */
+        height: 200px;
+        height: 110%;
+    }
+
+    .title h1{
+        margin-top: 200px;
+        color: #000;
+    }
+    .title p{
+        font-size: small;
+        color: #fff;
+    }
+    .team p{
+        font-size: larger;
+    }
+    .team h1{
+        font-size: small;
+        margin-bottom: 50px;
+    }
+    .team h5{
+        text-align: center;
+        margin-left: 20px;
+    }
+    .btn{
+        margin-left:110px;
+        margin-bottom: 20px;
+    }
+    .btn2{
+        margin-left: 110px;
+        margin-bottom: 20px;
+    }
+    .btn3{
+        margin-left: 110px;
+        margin-bottom: 20px;
+    }
+    .btn4{
+        margin-left: 110px;
+        margin-bottom: 20px;
+    }
+    .ok h1{
+        font-size: 50px;
+    }
+
+
+}
+
+/* Add any additional styles for small screens here */
