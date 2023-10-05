@@ -397,7 +397,7 @@ canvas{
     color: #fff;
     border: 1px solid white;
     cursor: pointer;
-    margin-left: 320px;
+    margin-left: 140px;
     margin-top: 70px;
     width: 180px;
     margin-bottom: 50px;
@@ -432,7 +432,17 @@ canvas{
     margin-left: 80px;
     width: 180px;
 }
-.btn:hover, .btn2:hover, .btn3:hover, .btn4:hover{
+.btn7{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    cursor: pointer;
+    margin-left: 80px;
+    width: 180px;
+}
+.btn:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn7:hover{
     background-color: #fff;
     color: #000;
     transition: 0.5s;
