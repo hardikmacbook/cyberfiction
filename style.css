@@ -148,10 +148,10 @@ canvas{
     margin-top:160px;
 }
 .btn6:hover{
-    background-color: aqua;
+    background-color: white;
     color: black;
     transition: 0.5s;
-    border: 1px solid aqua;
+    border: 1px solid white;
 }
 .fa-right-long{
     color: white;
@@ -266,7 +266,7 @@ canvas{
     width: 410px;
     border-radius: 20px;
     height: 190px;
-    margin-left: 200px;
+    margin-left: 110px;
     margin-bottom: 20px;
     float: left; /* Add this to make the boxes appear in one line */
 }
@@ -296,7 +296,7 @@ canvas{
     width: 410px;
     border-radius: 20px;
     height: 190px;
-    margin-left: 200px;
+    margin-left: 110px;
     margin-bottom: 20px;
     float: left; /* Add this to make the boxes appear in one line */
 }
@@ -347,7 +347,7 @@ canvas{
 .vertical-line {
     border-right: 2px dashed #999; /* Adjust the thickness, style, and color */
     height: 200px; /* Adjust the height of the vertical line */
-    margin-right: 900px; /* Adjust the margin if needed */
+    margin-right: 800px; /* Adjust the margin if needed */
     margin-top: 500px;
   }
 
@@ -355,7 +355,7 @@ canvas{
   .vertical-line2 {
     border-right: 2px dashed #999; /* Adjust the thickness, style, and color */
     height: 200px; /* Adjust the height of the vertical line */
-    margin-right: 900px; /* Adjust the margin if needed */
+    margin-right: 800px; /* Adjust the margin if needed */
     margin-top: 50px;
   }
 
@@ -570,6 +570,9 @@ canvas{
     }
     .ok h1{
         font-size: 50px;
+    }
+    .sold, img {
+        display: none;
     }
 
 
