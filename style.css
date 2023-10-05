@@ -103,12 +103,61 @@ canvas{
     color: #fff;
     border: 1px solid white;
     cursor: pointer;
+    margin-left: 1200px;
 }
 #nav>a>button:hover{
     background-color: #fff;
     color: #000;
     transition: 0.5s;
 }
+
+.nav, .sold img{
+    width: 110px;
+    margin-top: 90px;
+}
+.btn6{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    cursor: pointer;
+    width: 180px;
+    margin-bottom: 50px;
+}
+
+
+.nav,
+.sold img {
+    width: 110px;
+    margin-top: 90px;
+    display: inline-block; /* Add this to make the elements inline */
+    vertical-align: middle; /* Add this for vertical alignment */
+}
+
+.btn6 {
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid white;
+    cursor: pointer;
+    width: 180px;
+    display: inline-block; /* Add this to make the button inline */
+    vertical-align: middle; /* Add this for vertical alignment */
+    margin-top:160px;
+}
+.btn6:hover{
+    background-color: aqua;
+    color: black;
+    transition: 0.5s;
+    border: 1px solid aqua;
+}
+.fa-right-long{
+    color: white;
+}
+
+
 
 #page>h3{
     position: absolute;
