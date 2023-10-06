@@ -266,7 +266,7 @@ canvas{
     width: 410px;
     border-radius: 20px;
     height: 190px;
-    margin-left: 110px;
+    margin-left: 150px;
     margin-bottom: 20px;
     float: left; /* Add this to make the boxes appear in one line */
 }
@@ -276,7 +276,7 @@ canvas{
     width: 410px;
     border-radius: 20px;
     height: 190px;
-    margin-left: 40px;
+    margin-left: 200px;
     margin-bottom: 20px;
     float: left; /* Add this to make the boxes appear in one line */
 }
@@ -286,7 +286,7 @@ canvas{
     width: 410px;
     border-radius: 20px;
     height: 190px;
-    margin-left: 40px;
+    margin-left: 180px;
     margin-bottom: 20px;
     float: left; /* Add this to make the boxes appear in one line */
 }
@@ -296,7 +296,7 @@ canvas{
     width: 410px;
     border-radius: 20px;
     height: 190px;
-    margin-left: 110px;
+    margin-left: 150px;
     margin-bottom: 20px;
     float: left; /* Add this to make the boxes appear in one line */
 }
@@ -306,7 +306,7 @@ canvas{
     width: 410px;
     border-radius: 20px;
     height: 190px;
-    margin-left: 40px;
+    margin-left: 200px;
     margin-bottom: 20px;
     float: left; /* Add this to make the boxes appear in one line */
 }
@@ -316,7 +316,7 @@ canvas{
     width: 410px;
     border-radius: 20px;
     height: 190px;
-    margin-left: 40px;
+    margin-left: 180px;
     margin-bottom: 20px;
     float: left; /* Add this to make the boxes appear in one line */
 }
@@ -347,7 +347,7 @@ canvas{
 .vertical-line {
     border-right: 2px dashed #999; /* Adjust the thickness, style, and color */
     height: 200px; /* Adjust the height of the vertical line */
-    margin-right: 800px; /* Adjust the margin if needed */
+    margin-right: 1000px; /* Adjust the margin if needed */
     margin-top: 500px;
   }
 
@@ -355,7 +355,7 @@ canvas{
   .vertical-line2 {
     border-right: 2px dashed #999; /* Adjust the thickness, style, and color */
     height: 200px; /* Adjust the height of the vertical line */
-    margin-right: 800px; /* Adjust the margin if needed */
+    margin-right: 1000px; /* Adjust the margin if needed */
     margin-top: 50px;
   }
 
@@ -397,7 +397,7 @@ canvas{
     color: #fff;
     border: 1px solid white;
     cursor: pointer;
-    margin-left: 140px;
+    margin-left: 150px;
     margin-top: 70px;
     width: 180px;
     margin-bottom: 50px;
@@ -409,7 +409,7 @@ canvas{
     color: #fff;
     border: 1px solid white;
     cursor: pointer;
-    margin-left: 80px;
+    margin-left: 180px;
     width: 180px;
 }
 .btn3{
@@ -419,7 +419,7 @@ canvas{
     color: #fff;
     border: 1px solid white;
     cursor: pointer;
-    margin-left: 80px;
+    margin-left: 180px;
     width: 180px;
 }
 .btn4{
@@ -429,7 +429,7 @@ canvas{
     color: #fff;
     border: 1px solid white;
     cursor: pointer;
-    margin-left: 80px;
+    margin-left: 180px;
     width: 180px;
 }
 .btn7{
@@ -439,7 +439,7 @@ canvas{
     color: #fff;
     border: 1px solid white;
     cursor: pointer;
-    margin-left: 80px;
+    margin-left: 180px;
     width: 180px;
 }
 .btn:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn7:hover{
