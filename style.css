@@ -260,67 +260,17 @@ canvas{
     margin-bottom: 40px;
 }
 
-.map {
+.map, .map-2, .map-3, .map-4, .map-5, .map-6 {
     background-color: #fff;
     border: 1px solid #000;
     width: 410px;
     border-radius: 20px;
     height: 190px;
-    margin-left: 150px;
+    margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 70px;
     float: left; /* Add this to make the boxes appear in one line */
 }
-.map-2{
-    background-color: #fff;
-    border: 1px solid #000;
-    width: 410px;
-    border-radius: 20px;
-    height: 190px;
-    margin-left: 200px;
-    margin-bottom: 20px;
-    float: left; /* Add this to make the boxes appear in one line */
-}
-.map-3{
-    background-color: #fff;
-    border: 1px solid #000;
-    width: 410px;
-    border-radius: 20px;
-    height: 190px;
-    margin-left: 180px;
-    margin-bottom: 20px;
-    float: left; /* Add this to make the boxes appear in one line */
-}
-.map-4{
-    background-color: #fff;
-    border: 1px solid #000;
-    width: 410px;
-    border-radius: 20px;
-    height: 190px;
-    margin-left: 150px;
-    margin-bottom: 20px;
-    float: left; /* Add this to make the boxes appear in one line */
-}
-.map-5{
-    background-color: #fff;
-    border: 1px solid #000;
-    width: 410px;
-    border-radius: 20px;
-    height: 190px;
-    margin-left: 200px;
-    margin-bottom: 20px;
-    float: left; /* Add this to make the boxes appear in one line */
-}
-.map-6{
-    background-color: #fff;
-    border: 1px solid #000;
-    width: 410px;
-    border-radius: 20px;
-    height: 190px;
-    margin-left: 180px;
-    margin-bottom: 20px;
-    float: left; /* Add this to make the boxes appear in one line */
-}
-
 
 .map p, .map-2 p, .map-3 p, .map-4 p, .map-5 p, .map-6 p {
     margin-top: 10px;
@@ -331,6 +281,7 @@ canvas{
 .map h2, .map-2 h2, .map-3 h2, .map-4 h2, .map-5 h2, .map-6 h2 {
     margin-left: 20px;
 }
+
 
 /*---------------- */
 .ok>h1{
@@ -347,7 +298,7 @@ canvas{
 .vertical-line {
     border-right: 2px dashed #999; /* Adjust the thickness, style, and color */
     height: 200px; /* Adjust the height of the vertical line */
-    margin-right: 1000px; /* Adjust the margin if needed */
+    margin-right: 800px; /* Adjust the margin if needed */
     margin-top: 500px;
   }
 
@@ -355,7 +306,7 @@ canvas{
   .vertical-line2 {
     border-right: 2px dashed #999; /* Adjust the thickness, style, and color */
     height: 200px; /* Adjust the height of the vertical line */
-    margin-right: 1000px; /* Adjust the margin if needed */
+    margin-right: 800px; /* Adjust the margin if needed */
     margin-top: 50px;
   }
 
@@ -397,7 +348,7 @@ canvas{
     color: #fff;
     border: 1px solid white;
     cursor: pointer;
-    margin-left: 150px;
+    margin-left: 140px;
     margin-top: 70px;
     width: 180px;
     margin-bottom: 50px;
@@ -409,7 +360,7 @@ canvas{
     color: #fff;
     border: 1px solid white;
     cursor: pointer;
-    margin-left: 180px;
+    margin-left: 80px;
     width: 180px;
 }
 .btn3{
@@ -419,7 +370,7 @@ canvas{
     color: #fff;
     border: 1px solid white;
     cursor: pointer;
-    margin-left: 180px;
+    margin-left: 80px;
     width: 180px;
 }
 .btn4{
@@ -429,7 +380,7 @@ canvas{
     color: #fff;
     border: 1px solid white;
     cursor: pointer;
-    margin-left: 180px;
+    margin-left: 80px;
     width: 180px;
 }
 .btn7{
@@ -439,7 +390,7 @@ canvas{
     color: #fff;
     border: 1px solid white;
     cursor: pointer;
-    margin-left: 180px;
+    margin-left: 80px;
     width: 180px;
 }
 .btn:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn7:hover{
